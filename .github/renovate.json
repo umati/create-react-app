@@ -4,6 +4,10 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "rangeStrategy": "replace"
+    },
+    {
       "matchDatasources": ["docker"],
       "matchUpdateTypes": ["major"],
       "enabled": true,

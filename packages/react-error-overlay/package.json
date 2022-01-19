@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "@babel/code-frame": "7.16.7",
-    "@babel/core": "7.16.7",
+    "@babel/core": "7.16.10",
     "anser": "^2.1.0",
     "babel-jest": "27.4.6",
     "babel-loader": "^8.2.3",

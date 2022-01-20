@@ -2,7 +2,7 @@ name: Integration Tests
 
 on:
   push:
-    branches: [main, umati]
+    branches: [main, umati, develop]
   pull_request:
     branches: [umati, develop]
 

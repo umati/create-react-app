@@ -16,7 +16,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "@babel/core": "7.16.10"
+    "@babel/core": "7.16.12"
   },
   "devDependencies": {
     "babel-plugin-tester": "10.1.0",

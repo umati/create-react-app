@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: ['ubuntu-latest', 'windows-latest']
+        os: ['ubuntu-20.04', 'windows-2019']
         node: ['14', '16']
     steps:
       - uses: actions/checkout@v2
@@ -21,7 +21,8 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: 'npm'
       - name: Install npm@8
-        run: npm i -g npm@8
+        run: npm i -g npm@8.3.1
+        # TODO: remove after this is fixed https://github.com/actions/setup-node/issues/411
       - name: Install yarn
         run: npm i -g yarn
       - name: Install packages

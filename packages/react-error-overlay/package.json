@@ -37,7 +37,7 @@
   "devDependencies": {
     "@babel/code-frame": "7.16.7",
     "@babel/core": "7.17.2",
-    "anser": "2.1.0",
+    "anser": "2.1.1",
     "babel-jest": "27.5.1",
     "babel-loader": "8.2.3",
     "babel-preset-react-app": "^10.0.1",

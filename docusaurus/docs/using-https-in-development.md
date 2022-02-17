@@ -16,7 +16,7 @@ To do this, set the `HTTPS` environment variable to `true`, then start the dev s
 set HTTPS=true&&npm start
 ```
 
-(Note: the lack of whitespace is intentional.)
+(Note: the lack of spaces is intentional.)
 
 ### Windows (Powershell)
 

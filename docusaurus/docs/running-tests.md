@@ -278,7 +278,7 @@ set CI=true&&npm test
 set CI=true&&npm run build
 ```
 
-(Note: the lack of whitespace is intentional.)
+(Note: the lack of spaces is intentional.)
 
 #### Windows (Powershell)
 

@@ -46,7 +46,7 @@
     "cross-env": "7.0.3",
     "eslint": "8.13.0",
     "eslint-config-react-app": "^7.0.0",
-    "flow-bin": "0.175.0",
+    "flow-bin": "0.175.1",
     "html-entities": "2.3.3",
     "jest": "27.5.1",
     "jest-fetch-mock": "3.0.3",

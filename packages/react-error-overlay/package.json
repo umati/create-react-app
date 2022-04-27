@@ -57,7 +57,7 @@
     "rimraf": "3.0.2",
     "settle-promise": "1.0.0",
     "source-map": "0.6.1",
-    "webpack": "5.69.1"
+    "webpack": "5.72.0"
   },
   "jest": {
     "setupFiles": [

@@ -28,7 +28,7 @@
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {
-    "@babel/core": "7.17.9",
+    "@babel/core": "7.17.10",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.5",
     "@svgr/webpack": "6.2.1",
     "babel-jest": "27.5.1",

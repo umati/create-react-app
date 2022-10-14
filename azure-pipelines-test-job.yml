@@ -26,7 +26,7 @@ jobs:
       - checkout: self
         path: create-react-app
 
-      - task: NodeTool@0.200.0
+      - task: NodeTool@0.211.0
         inputs:
           versionSpec: $(nodeVersion)
         displayName: 'Install Node.js'

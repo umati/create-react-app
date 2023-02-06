@@ -28,7 +28,7 @@
     "@testing-library/user-event": "14.4.3",
     "alex": "^8.2.0",
     "eslint": "8.33.0",
-    "execa": "^5.1.1",
+    "execa": "^6.0.0",
     "fs-extra": "^11.0.0",
     "get-port": "6.1.2",
     "globby": "13.1.3",

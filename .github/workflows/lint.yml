@@ -6,17 +6,13 @@ jobs:
   lint:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3.3.0
-      - uses: actions/setup-node@v3.6.0
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
           cache: 'npm'
-      - name: Install npm@9
-        run: npm i -g npm@9
       - name: Install
         run: npm ci --prefer-offline
-      - name: Build
-        run: npm run build
       - name: Alex
         run: npm run alex
       - name: Prettier

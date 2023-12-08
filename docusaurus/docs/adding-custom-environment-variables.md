@@ -91,7 +91,7 @@ Defining environment variables can vary between OSes. It’s also important to k
 set "REACT_APP_NOT_SECRET_CODE=abcdef" && npm start
 ```
 
-(Note: Quotes around the variable assignment are required to avoid a trailing whitespace.)
+(Note: Quotes around the variable assignment are required to avoid a trailing blanks.)
 
 ### Windows (Powershell)
 

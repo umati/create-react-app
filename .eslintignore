@@ -2,3 +2,8 @@ node_modules/
 build/
 test/fixtures/webpack-message-formatting/src/AppBabel.js
 packages/react-error-overlay/lib/
+packages/cra-template/template/src/App.test.js
+packages/react-error-overlay/src/__tests__/
+packages/react-scripts/fixtures/kitchensink/template/
+test/fixtures/issue-5176-flow-class-properties/src/App.test.js
+test/fixtures/jsconfig/src/App.test.js

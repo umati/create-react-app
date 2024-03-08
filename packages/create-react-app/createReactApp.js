@@ -43,7 +43,7 @@ const path = require('path');
 const semver = require('semver');
 const spawn = require('cross-spawn');
 const tmp = require('tmp');
-const unpack = require('tar-pack').unpack;
+// const unpack = require('tar-pack').unpack;
 const url = require('url');
 const validateProjectName = require('validate-npm-package-name');
 

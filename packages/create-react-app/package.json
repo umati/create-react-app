@@ -37,7 +37,7 @@
     "prompts": "^2.4.2",
     "semver": "^7.3.5",
     "tmp": "^0.2.1",
-    "validate-npm-package-name": "^5.0.0"
+    "validate-npm-package-name": "^6.0.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

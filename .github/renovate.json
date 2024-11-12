@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "baseBranches": ["umati"],
   "labels": ["dependencies"],
   "packageRules": [
@@ -10,29 +10,29 @@
       "pinDigests": true
     },
     {
-      "matchPackagePatterns": ["eslint"],
       "labels": ["linting"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "matchPackageNames": ["/eslint/"]
     },
     {
-      "matchPackagePatterns": ["react"],
       "labels": ["react"],
-      "groupName": "react"
+      "groupName": "react",
+      "matchPackageNames": ["/react/"]
     },
     {
-      "matchPackagePatterns": ["bootstrap"],
       "labels": ["bootstrap"],
-      "groupName": "bootstrap"
+      "groupName": "bootstrap",
+      "matchPackageNames": ["/bootstrap/"]
     },
     {
-      "matchPackagePatterns": ["redux"],
       "labels": ["redux"],
-      "groupName": "redux"
+      "groupName": "redux",
+      "matchPackageNames": ["/redux/"]
     },
     {
-      "matchPackagePatterns": ["stylelint"],
       "labels": ["stylelint"],
-      "groupName": "stylelint"
+      "groupName": "stylelint",
+      "matchPackageNames": ["/stylelint/"]
     },
     {
       "matchDepTypes": ["optionalDependencies"],

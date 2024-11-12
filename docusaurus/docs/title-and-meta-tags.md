@@ -19,7 +19,7 @@ If you use a custom server for your app in production and want to modify the tit
 Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve this, we recommend to add placeholders into the HTML, like this:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta property="og:title" content="__OG_TITLE__" />

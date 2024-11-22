@@ -11,6 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const url = require('url');
 const chalk = require('chalk');
+const _ = require('lodash');
 const detect = require('detect-port-alt');
 const isRoot = require('is-root');
 const prompts = require('prompts');
@@ -327,7 +328,7 @@ function prepareProxy(proxy, appPublicFolder, servedPathname) {
   function mayProxy(pathname) {
     const maybePublicPath = path.resolve(
       appPublicFolder,
-      pathname.replace(new RegExp('^' + servedPathname), ''),
+      pathname.replace(new RegExp('^' + _.escapeRegExp(servedPathname)), ''),
     );
     const isPublicFileRequest = fs.existsSync(maybePublicPath);
     // used by webpackHotDevClient

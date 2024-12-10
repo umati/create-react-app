@@ -7,3 +7,8 @@ packages/react-error-overlay/fixtures/inline*
 packages/react-error-overlay/fixtures/junk*
 packages/react-error-overlay/lib/
 packages/react-error-overlay/coverage/
+packages/react-error-overlay/src/index.js
+packages/react-scripts/fixtures/kitchensink/template/src/features/syntax/AsyncAwait.js
+test/fixtures/issue-5176-flow-class-properties/src/App.js
+packages/react-error-overlay/flow/env.js
+packages/react-error-overlay/src/listenToRuntimeErrors.js
